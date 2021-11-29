@@ -1,7 +1,4 @@
-const user = {
-  name: 'Mateus',
-};
+import { render } from 'react-dom';
+import { App } from './App';
 
-function Wrapper() {
-  return <App />;
-}
+render(<App />, document.getElementById('root'));
